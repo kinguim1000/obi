@@ -7,6 +7,7 @@ arr = [
 let diferenca;
 for (let p in arr) {
   for (let t = p; t < arr.length; t++) {
+    //vai iniciar com o proprio coord
     diferenca =
       Math.abs(arr[p][0] - arr[t][0]) + Math.abs(arr[p][1] - arr[t][1]);
     console.log(diferenca);
